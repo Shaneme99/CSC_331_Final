@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane hgap="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" vgap="8.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rightsville_rental.Vehicle_Selection_Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="92.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="108.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#93bbbc" height="182.0" stroke="BLACK" strokeType="INSIDE" width="426.0" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets bottom="150.0" />
+         </GridPane.margin>
+      </Rectangle>
+      <CheckBox fx:id="Rent_Check1" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" text="Rent" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></CheckBox>
+      <Label text="Kayak" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label fx:id="Available_Label_1" text="Available" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="\$50.00" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <CheckBox fx:id="Rent_Check2" mnemonicParsing="false" text="Rent" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></CheckBox>
+      <Label text="Surfboard" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label fx:id="Available_Label_2" text="Available" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="\$40.00" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Button fx:id="ButtonConfirm" mnemonicParsing="false" text="Confirm" GridPane.rowIndex="6" />
+      <CheckBox fx:id="Rent_Check3" mnemonicParsing="false" text="Rent" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Rent_Check4" mnemonicParsing="false" text="Rent" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Rent_Check5" mnemonicParsing="false" text="Rent" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></CheckBox>
+      <Label text="Paddleboard" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="Jet Ski" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="Snorkel" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdcb9" height="28.0" stroke="BLACK" strokeType="INSIDE" width="427.0" />
+      <Label fx:id="Available_Label_3" text="Available" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label fx:id="Available_Label_4" text="Available" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label fx:id="Available_Label_5" text="Available" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="\$15.00" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="\$20.00" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="\$150.00" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font name="American Typewriter" size="13.0" />
+         </font></Label>
+      <Label text="Item" textFill="#32312e" GridPane.columnIndex="1">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Label>
+      <Label text="Availability" GridPane.columnIndex="2">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font></Label>
+      <Label text="Price Per Day" GridPane.columnIndex="3">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Label>
+   </children>
+   <padding>
+      <Insets bottom="14.0" left="14.0" right="14.0" top="14.0" />
+   </padding>
+</GridPane>
